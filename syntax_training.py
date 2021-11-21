@@ -36,9 +36,20 @@
 # print(a)
 # print(b)
 
-# dictionaries
-my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+############### dictionaries
+# my_dict = {'key1' : 'value1', 'key2' : 'value2'}
 #print(my_dict['key2'])
 
-d = {'key1 ': 'value1' , 'k1':[1,2,3], 'k2':{'k3': 'bla bla'}}
-print(d['k2']['k3'])
+# d = {'key1 ': 'value1' , 'k1':[1,2,3], 'k2':{'k3': 'bla bla'}}
+# print(d['k2']['k3'])
+
+############## I/O file
+from os import write
+
+
+f = open('my_file.txt','w')
+f.write('im writing this file \n for the first time')
+f.close
+
+f = open('my_file.txt','r')
+#print(f.readlines())
