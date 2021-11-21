@@ -27,12 +27,18 @@
 # print(c)
 
 ############## list 
-name  = ["nam",7,90]
-name.append('lol')
-a = name.pop(0)
+# name  = ["nam",7,90]
+# name.append('lol')
+# a = name.pop(0)
 # can't contain string and int  only str or int same type
-b = name.sort()
-print(name)
-print(a)
-print(b)
+# b = name.sort()
+# print(name)
+# print(a)
+# print(b)
 
+# dictionaries
+my_dict = {'key1' : 'value1', 'key2' : 'value2'}
+#print(my_dict['key2'])
+
+d = {'key1 ': 'value1' , 'k1':[1,2,3], 'k2':{'k3': 'bla bla'}}
+print(d['k2']['k3'])
