@@ -44,12 +44,24 @@
 # print(d['k2']['k3'])
 
 ############## I/O file
-from os import write
+# from os import write
 
 
-f = open('my_file.txt','w')
-f.write('im writing this file \n for the first time')
-f.close
+# f = open('my_file.txt','w')
+# f.write('im writing this file \n for the first time')
+# f.close
 
-f = open('my_file.txt','r')
+# f = open('my_file.txt','r')
 #print(f.readlines())
+
+############## For
+list = [1,2,3,4]
+# for i in list:
+#     print(i)
+
+for num in list:
+    if num %2 ==0:
+        print(f'good number:{num}')
+    else:
+        print(f'odd number:{num}')
+
