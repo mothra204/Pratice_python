@@ -55,13 +55,28 @@
 #print(f.readlines())
 
 ############## For
-list = [1,2,3,4]
-# for i in list:
-#     print(i)
+# list = [1,2,3,4]
+# # for i in list:
+# #     print(i)
 
-for num in list:
-    if num %2 ==0:
-        print(f'good number:{num}')
-    else:
-        print(f'odd number:{num}')
+# for num in list:
+#     if num %2 ==0:
+#         print(f'good number:{num}')
+#     else:
+#         print(f'odd number:{num}')
 
+# mylsit = [x for x in range(1,10) if x%2==0]
+# print(mylsit)
+
+# list1 = [1.4 , 6.4 , 8.6 , 5.9]
+# list2  = [((8/2)*temp +10) for temp in list1]
+
+
+# print(list2)
+
+mylist = [x*y for x in [1,6,7] for y in [1,10,100]]
+
+# for x in [1,3,6]:
+#     for y in [1,10,100]:
+#         mylist.append(x*y)
+print(mylist)
