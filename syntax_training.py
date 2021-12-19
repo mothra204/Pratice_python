@@ -74,9 +74,45 @@
 
 # print(list2)
 
-mylist = [x*y for x in [1,6,7] for y in [1,10,100]]
+# mylist = [x*y for x in [1,6,7] for y in [1,10,100]]
 
 # for x in [1,3,6]:
 #     for y in [1,10,100]:
 #         mylist.append(x*y)
-print(mylist)
+# print(mylist)
+
+################## split
+# st = 'Print only the words that start with s in this sentence'
+
+# for i in st.split():
+#     if i[0] == 's':
+#         print(i)
+
+################## range()
+# for i in range(0,11):
+#     print(i)
+
+#################
+# list = [i for i in range(1,51) if i%3 ==0]
+# print(list)
+#################
+# st = 'Print every word in this sentence that has an even number of letters'
+# for i in st.split():
+#     if i == "even":
+#         print('even!')
+
+# for i in range(1,101):
+#     if i %3 == 0 and i %5 ==0:
+#         print('Fizzbuzz')
+#     elif i % 3==0:
+#             print('Fizz')
+#     elif i %5 ==0:
+#             print('buzz')
+#     else:
+#         print(i)
+
+st = 'Create a list of the first letters of every word in this string'
+
+list = [i[0] for i in st.split() ]
+
+print(list)
