@@ -111,8 +111,14 @@
 #     else:
 #         print(i)
 
-st = 'Create a list of the first letters of every word in this string'
+# st = 'Create a list of the first letters of every word in this string'
 
-list = [i[0] for i in st.split() ]
+# list = [i[0] for i in st.split() ]
 
-print(list)
+# print(list)
+
+def hi(a):
+    print(f'helli {a}')
+
+result = hi('hi')
+print(result)
