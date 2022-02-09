@@ -117,8 +117,19 @@
 
 # print(list)
 
-def hi(a):
-    print(f'helli {a}')
+# def hi(a):
+#     print(f'helli {a}')
 
-result = hi('hi')
+# result = hi('hi')
+# print(result)
+
+from random import shuffle
+list = ['6','7','2','9']
+
+# shuffle(list)
+def check_list(mylist):
+    shuffle(mylist)
+    return mylist
+
+result = check_list(list)
 print(result)
