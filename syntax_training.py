@@ -123,13 +123,13 @@
 # result = hi('hi')
 # print(result)
 
-from random import shuffle
-list = ['6','7','2','9']
+# from random import shuffle
+# list = ['6','7','2','9']
 
-# shuffle(list)
-def check_list(mylist):
-    shuffle(mylist)
-    return mylist
+# # shuffle(list)
+# def check_list(mylist):
+#     shuffle(mylist)
+#     return mylist
 
-result = check_list(list)
-print(result)
+# result = check_list(list)
+# print(result)
