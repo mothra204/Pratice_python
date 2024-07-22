@@ -65,7 +65,7 @@
 #     else:
 #         print(f'odd number:{num}')
 
-# mylsit = [x for x in range(1,10) if x%2==0]
+# mylsit = [Myvariable for Myvariable in range(1,10) if Myvariable%2==0]
 # print(mylsit)
 
 # list1 = [1.4 , 6.4 , 8.6 , 5.9]
@@ -74,11 +74,11 @@
 
 # print(list2)
 
-# mylist = [x*y for x in [1,6,7] for y in [1,10,100]]
+# mylist = [Myvariable*y for Myvariable in [1,6,7] for y in [1,10,100]]
 
-# for x in [1,3,6]:
+# for Myvariable in [1,3,6]:
 #     for y in [1,10,100]:
-#         mylist.append(x*y)
+#         mylist.append(Myvariable*y)
 # print(mylist)
 
 ################## split
@@ -133,3 +133,100 @@
 
 # result = check_list(list)
 # print(result)
+
+################# new start
+
+################################################### Variables
+
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)
+# print(y)
+# print(z)
+
+################################################### Random number
+
+# import random
+#
+# print(random.randrange(1,200))
+
+
+################################################### List
+
+# get type of list
+# thislist = list(("apple", "banana", "cherry"))
+# print(type(thislist))
+
+
+#access list to get data
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# print(thislist[1:4])
+
+# check existing in list
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+# if "melon" in thislist:
+#     print("yes")
+# else:
+#     print("no")
+
+# change item into list
+# thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+# thislist[1:3] = ["keyboard", "mouse"]
+# print(thislist)
+
+# change item less item into list
+# thislist = ["apple", "banana", "cherry"]
+# thislist[1:3] = ["chuối"]
+# print(thislist)
+
+#insert item into list
+# thislist = ["apple", "banana", "cherry"]
+# thislist.insert(1,"chuối")
+# print(thislist)
+
+#append item into list
+# thislist = ["apple", "banana", "cherry"]
+# thislist.append("orange")
+# print(thislist)
+
+#extend list
+# thislist = ["apple", "banana", "cherry"]
+# tropical = ["mango", "pineapple", "papaya"]
+# thislist.extend(tropical)
+# print(thislist)
+
+#extend with another datatype (tuple)
+# thislist = ["apple", "banana", "cherry"]
+# thistuple = ("kiwi", "orange")
+# thislist.extend(thistuple)
+# print(thislist)
+
+#remove item from the list
+# thislist = ["apple", "banana", "cherry","banana"]
+# thislist.remove("banana")
+# print(thislist)
+
+#remove item specified index
+# thislist = ["apple", "banana", "cherry", "banana"]
+# thislist.pop()
+# print(thislist)
+
+#remove item specified index with DEL
+# thislist = ["apple", "banana", "cherry", "banana"]
+# del thislist[2]
+# print(thislist)
+
+#remove the list with DEL
+# thislist = ["apple", "banana", "cherry", "banana"]
+# del thislist
+# print(thislist)  #this will cause an error because you have succsesfully deleted "thislist".
+
+# clear item in the list
+# thislist = ["apple", "banana", "cherry", "banana"]
+# thislist.clear()
+# print(thislist)
+
+# loop throught the list
+thislist = ["apple", "banana", "cherry", "orange"]
+for x in thislist:
+    print(x)

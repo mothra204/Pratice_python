@@ -1,0 +1,29 @@
+################################ Data type
+
+x = "Hello World"	str
+x = 20	int
+x = 20.5	float
+x = 1j	complex
+x = ["apple", "banana", "cherry"]	list
+x = ("apple", "banana", "cherry")	tuple
+x = range(6)	range
+x = {"name" : "John", "age" : 36}	dict
+x = {"apple", "banana", "cherry"}	set
+x = frozenset({"apple", "banana", "cherry"})	frozenset
+x = True	bool
+x = b"Hello"	bytes
+x = bytearray(5)	bytearray
+x = memoryview(bytes(5))	memoryview
+x = None	NoneType
+
+################################ List
+
+Python Collections (Arrays):
+    List is a collection which is ordered and changeable. Allows duplicate members.
+    Tuple is a collection which is ordered and unchangeable. Allows duplicate members.
+    Set is a collection which is unordered, unchangeable*, and unindexed. No duplicate members.
+    Dictionary is a collection which is ordered** and changeable. No duplicate members.
+
+.pop(1) with index will remvoe specified item
+.pop() without index will remove the last item
+################################
